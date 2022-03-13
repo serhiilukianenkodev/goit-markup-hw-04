@@ -90,6 +90,7 @@ header {
 .site-nav {
   display: flex;
   justify-content: center;
+  align-items: center;
 
   font-weight: 500;
   font-size: 14px;
@@ -105,6 +106,11 @@ header {
 
 .contacts > li:not(:last-child) {
   margin-right: 50px;
+}
+
+.contacts .icon {
+  fill: currentColor;
+  margin-right: 10px;
 }
 
 .site-nav {
