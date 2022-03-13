@@ -189,6 +189,15 @@ header {
   background: #188ce8;
 }
 
+.benefits-list .thumb {
+  background: var(--bg-accent);
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+}
+
 /* benefits-section */
 .benefits-section.section {
   padding-bottom: 0;
