@@ -296,6 +296,7 @@ header {
 }
 
 .social-icons {
+  width: 206px;
   display: flex;
   justify-content: space-between;
 }
@@ -381,6 +382,40 @@ header {
 
 .address p {
   color: var(--text-white);
+}
+
+.contact-us h2 {
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.footer > .container {
+  display: flex;
+}
+
+.our-location {
+  min-width: 232px;
+  margin-right: 70px;
+}
+
+.contact-us {
+  padding-top: 12px;
+}
+
+.contact-us a {
+  color: var(--text-white);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.contact-us a:hover,
+.contact-us a:focus {
+  background: var(--text-accent);
 }
 
 /*  portfolio*/
