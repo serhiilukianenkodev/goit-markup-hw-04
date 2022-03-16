@@ -113,6 +113,11 @@ header {
   margin-right: 10px;
 }
 
+.contacts a {
+  display: flex;
+  align-items: center;
+}
+
 .site-nav {
   color: var(--text-heading);
   margin: 0;
@@ -189,15 +194,6 @@ header {
   background: #188ce8;
 }
 
-.benefits-list .thumb {
-  background: var(--bg-accent);
-  border-radius: 4px;
-  width: 270px;
-  height: 120px;
-  padding: 25px 100px;
-  margin-bottom: 30px;
-}
-
 /* benefits-section */
 .benefits-section.section {
   padding-bottom: 0;
@@ -222,6 +218,18 @@ header {
 .benefits-list {
   display: flex;
   justify-content: space-between;
+}
+
+.benefits-list .thumb {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: var(--bg-accent);
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
 }
 
 .benefits-list > li {
@@ -306,12 +314,12 @@ header {
 }
 
 .social-icons a {
-  display: block;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-
-  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #afb1b8;
 }
 
@@ -335,10 +343,12 @@ header {
 }
 
 .clients-list a {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 170px;
   height: 92px;
-  padding: 16px 32px;
 
   color: #afb1b8;
   border: 1px solid currentColor;
@@ -397,15 +407,12 @@ header {
 
 .footer > .container {
   display: flex;
+  align-items: baseline;
 }
 
 .our-location {
   min-width: 232px;
   margin-right: 70px;
-}
-
-.contact-us {
-  padding-top: 12px;
 }
 
 .contact-us a {
@@ -471,7 +478,8 @@ header {
   margin-top: var(--card-set-gap);
 }
 
-.portfolio-projects > .item:hover {
+.portfolio-projects a:hover {
+  display: block;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
